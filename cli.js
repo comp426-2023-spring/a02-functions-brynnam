@@ -5,7 +5,7 @@ import moment from 'moment-timezone';
 
 const args = minimist(process.argv.slice(2));
 
-f (args.h); {
+if (args.h); {
     console.log(
         `Usage: galosh.js [options] -[n|s] LATITUDE -[e|w] LONGITUDE -z TIME_ZONE
             -h            Show this help message and exit.
